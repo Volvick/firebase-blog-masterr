@@ -360,6 +360,12 @@ $yellow: #f5bc04;
 					/* Relative to the base font size */
 				}
 			}
+			@media (min-width: 405px) {
+				.single & {
+					font-size:2.4em !important;
+					/* Relative to the base font size */
+				}
+			}
 		}
 
 
@@ -436,11 +442,12 @@ $yellow: #f5bc04;
 // Trending
 .trending-img-position {
 	position: relative;
+	display: block;
 	overflow: hidden;
 	cursor: pointer;
 	border-radius: 10px;
 	background-color: #222;
-	z-index: 5;
+	z-index: 50;
 }
 .trending-img-size {
 	height: 70px;
