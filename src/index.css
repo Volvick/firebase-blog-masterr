@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* p {
+  color: rgb(85, 85, 85);
+} */
+
+/* TRANSITION */
+
+/* a,
+.btnsk {
+  transition: all 300ms ease;
+} */
+
+/* DESKTOP NAV */
+button a{
+  text-decoration: none !important;
+}
+a {
+  color: black ;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+
+/* SECTIONS */
+
+
+.section-containersk {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profilesk {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic-containersk {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+ 
+}
+.section__pic-containersk > img{
+  border: 4px;
+  border-color: #222;
+  border-radius: 10%;
+  box-shadow:10px 10px 20px;
+}
+.section__textsk {
+  align-self: center;
+  text-align: center;
+}
+
+.section__textsk p {
+  font-weight: 600;
+}
+
+.section__textsk__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.titlesk {
+  font-size: 3rem;
+  text-align: center;
+}
+/* ICONS */
+
+.iconsk {
+  cursor: pointer;
+  height: 2rem;
+}
+/* BUTTONS */
+
+.btnsk-containersk {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; 
+}
+
+.btnsk {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 9rem;
+  border-radius: 2rem;
+}
+
+.btnsk-color-1,
+.btnsk-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btnsk-color-1:hover,
+.btnsk-color-2:hover {
+  cursor: pointer;
+}
+.btnsk-color-1 ,
+.btnsk-color-2:hover {
+  background: rgb(53, 53, 53);
+  a{
+    color: rgb(255, 255, 255);
+  }
+}
+.btnsk-color-1:hover {
+  background: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 0.1rem solid;
+  a{
+    color: #969696 !important;
+  }
+}
+
+.btnsk-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+  a{
+    color: #969696 !important;
+  }
+}
+
+.btnsk-container {
+  gap: 1rem;
+}
+
+.abouttet{
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px #8f8f8f solid;
+}
+.contactsk-info-upper-container {
+  
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border-bottom: 1px #8f8f8f  solid;
+}
+
+.contactsk-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contactsk-info-container p {
+  font-size: larger;
+}
+
+.contactsk-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+footer p {
+  text-align: center;
+}
+@media screen and (max-width: 1400px) {
+  #profilesk {
+    height: 70vh;
+    margin-bottom: 6rem;
+  }
+  #contactsk{
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #profilesk,
+  .section-container {
+    margin-top: 20px;
+    display: block;
+    height: 40vh;
+  }
+  .arrow {
+    display: none;
+  }
+  section
+  {
+    margin: 0 5%;
+  }
+  .section__pic-containersk {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profilesk {
+    height: 60vh;
+    margin-bottom: 0;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .contactsk-info-upper-container,
+  .btnsk-container {
+    flex-wrap: wrap;
+  }
+  .contactsk-info-container {
+    margin: 0;
+  }
+  .contactsk-info-container p
+   {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .section__pic-containersk {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .titlesk {
+    font-size: 2rem;
+  }
+  .text-containersk {
+    text-align: justify;
+  }
+}
+
