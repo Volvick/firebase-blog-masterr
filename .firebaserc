@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "react-blogs-app"
-  }
+    "default": "volvick-a91e5",
+    "y": "volvick-a91e5"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
