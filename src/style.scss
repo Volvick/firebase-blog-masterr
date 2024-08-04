@@ -293,7 +293,6 @@ $yellow: #f5bc04;
 		height: 180px;
 		width: 100%;
 	}
-
 	.overlay {
 		position: absolute;
 		top: 0;
@@ -352,6 +351,12 @@ $yellow: #f5bc04;
 			@media (max-width: 500px) {
 				.single & {
 					font-size: 3em;
+					/* Relative to the base font size */
+				}
+			}
+			@media (max-width: 405px) {
+				.single & {
+					font-size:2.4em !important;
 					/* Relative to the base font size */
 				}
 			}
