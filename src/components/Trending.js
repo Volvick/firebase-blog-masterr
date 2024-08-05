@@ -36,7 +36,7 @@ const Trending = ({ blogs }) => {
               <div className="trending-img-position">
                 <div className="trending-img-size">
                   {/* <img
-                    src="" //kuch bhi dal do
+                    src="https://wallpapercave.com/wp/wp9215933.jpg" 
                     alt={item.title}
                     className="trending-img-relative"
                   /> */}

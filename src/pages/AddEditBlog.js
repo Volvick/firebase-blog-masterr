@@ -30,7 +30,7 @@ const categoryOption = [
   "Reel Editing",
   "Shorts Editing",
   "Motion Graphics",
-  // "Business",
+  "Others",
 ];
 
 const AddEditBlog = ({ user, setActive }) => {
