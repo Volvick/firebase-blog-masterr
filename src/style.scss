@@ -82,17 +82,16 @@ $yellow: #f5bc04;
 		text-decoration: underline !important;
 		text-underline-offset: 1rem !important;
 		text-decoration-color: rgb(181, 181, 181) !important;
-		padding-top: 12px !important;
-		padding-bottom: 15px !important;
-		padding-left: 20px !important;
-		padding-right: 20px !important;
 		margin: 0 20px;
 		position: relative;
 	}
 }
 
 .bg-faded {
-	background-color: #f7f7f7;
+	margin: -7px;
+	background: linear-gradient(rgba(80, 71, 71, 0.2),rgb(255,255,255,0.5)) !important;
+	border: 1px solid rgb(255,255,255,0.18) !important;
+	box-shadow: 0px 8px 32px rgb(255,255,255,0.37) !important;
 }
 
 .mobile_logo_width {
@@ -293,6 +292,7 @@ $yellow: #f5bc04;
 		height: 180px;
 		width: 100%;
 	}
+
 	.overlay {
 		position: absolute;
 		top: 0;
@@ -354,15 +354,17 @@ $yellow: #f5bc04;
 					/* Relative to the base font size */
 				}
 			}
+
 			@media (max-width: 405px) {
 				.single & {
-					font-size:2.4em !important;
+					font-size: 2.4em !important;
 					/* Relative to the base font size */
 				}
 			}
+
 			@media (min-width: 405px) {
 				.single & {
-					font-size:2.4em !important;
+					font-size: 2.4em !important;
 					/* Relative to the base font size */
 				}
 			}
@@ -444,26 +446,28 @@ $yellow: #f5bc04;
 	position: relative;
 	overflow: hidden;
 	z-index: 5;
-box-shadow: 4px 4px 10px !important;
-border: 4px;
-border-color: #222;
-border-radius: 10%;
+	box-shadow: 2px 2px 4px !important;
+	border: 4px;
+	border-color: #222;
+	border-radius: 10px;
 	cursor: pointer;
 	margin-bottom: 20px;
-	margin-right: 20px;
+
 }
 
 .trending-img-size {
 	height: 326px;
 	overflow: hidden;
 }
-.trending-img-size > img {
+
+.trending-img-size>img {
 	height: 340px;
 	min-width: 100%;
 }
 
 .trending-img-relative {
 	position: relative;
+
 }
 
 .trending-img-absolute {
@@ -472,11 +476,8 @@ border-radius: 10%;
 	width: 100%;
 	top: 0;
 	right: 0;
-	// background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.83) 100%);
-	// background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.83) 100%);
-	// background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.83) 100%);
 	background-image: url("https://wallpapercave.com/wp/wp9215933.jpg") !important;
-	background-size:cover !important;
+	background-size: cover !important;
 	background-position: -170px !important;
 	z-index: 7;
 }
@@ -490,7 +491,7 @@ border-radius: 10%;
 }
 
 .trending-meta-info {
-	color: rgba(255,255,255,0.7);
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 13px;
 }
 
@@ -498,57 +499,69 @@ border-radius: 10%;
 	transition: 0.6s ease !important;
 	box-shadow: 10px 10px 10px;
 }
- @-webkit-keyframes swing1 {
- 15% {
- -webkit-transform: translateX(5px);
- transform: translateX(5px);
+
+@-webkit-keyframes swing1 {
+	15% {
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+	30% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
- 30% {
- -webkit-transform: translateX(-5px);
- transform: translateX(-5px);
-}
- 50% {
- -webkit-transform: translateX(3px);
- transform: translateX(3px);
-}
- 65% {
- -webkit-transform: translateX(-3px);
- transform: translateX(-3px);
-}
- 80% {
- -webkit-transform: translateX(2px);
- transform: translateX(2px);
-}
- 100% {
- -webkit-transform: translateX(0);
- transform: translateX(0);
-}
-}
+
 @keyframes swing1 {
- 15% {
- -webkit-transform: translateX(5px);
- transform: translateX(5px);
-}
- 30% {
- -webkit-transform: translateX(-5px);
- transform: translateX(-5px);
-}
- 50% {
- -webkit-transform: translateX(3px);
- transform: translateX(3px);
-}
- 65% {
- -webkit-transform: translateX(-3px);
- transform: translateX(-3px);
-}
- 80% {
- -webkit-transform: translateX(2px);
- transform: translateX(2px);
-}
- 100% {
- -webkit-transform: translateX(0);
- transform: translateX(0);
-}
+	15% {
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+	30% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
 
 

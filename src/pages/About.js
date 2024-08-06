@@ -1,12 +1,7 @@
 
 import React from "react";
 const About = () => {
-  const handleClick = () =>{
-    window.location.href="https://www.instagram.com/_volvick?igsh=bnVpbzdxNGo2Z2Fi";
-  }
-  const handleClickyt = () =>{
-    window.location.href="https://youtube.com/@volvick?si=Zl9QwRjdMyGoUxq0";
-  }
+  
   return (
     <div className="container padding">
       
@@ -51,7 +46,7 @@ const About = () => {
       </div>
       <p className="abouttet">
           Hii,I am sumant and i am just chasing my dream i want to create a website which can help students to get clients and clients a good video editors this website i made my the help of a Youtube video Channel:
-          <a href="https://www.youtube.com/@codewithvishal2968" >CodeWithVishal</a> 
+          <a target="_blank" href="https://www.youtube.com/@codewithvishal2968" >CodeWithVishal</a> 
         </p>
     <footer>
     
