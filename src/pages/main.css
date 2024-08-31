@@ -9,6 +9,7 @@
   overflow: hidden;
   cursor: pointer;
 }
+
 .video_items:hover{
   scale: 1.02;;
   background: linear-gradient(rgba(80, 71, 71, 0.4),rgb(255,255,255,0.6)) !important;
@@ -19,9 +20,8 @@
   display: flex;
   flex-wrap: wrap;
 }
-.heading{
+.headingsk{
   width: 295px;
-
 }
 .heading >p {
     color: #222;

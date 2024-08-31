@@ -118,7 +118,7 @@ a:hover {
 
 .btnsk-color-1,
 .btnsk-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #4a7766 0.1rem solid;
 }
 
 .btnsk-color-1:hover,
@@ -127,23 +127,23 @@ a:hover {
 }
 .btnsk-color-1 ,
 .btnsk-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #4a7766;
   a{
     color: rgb(255, 255, 255);
   }
 }
 .btnsk-color-1:hover {
-  background: rgb(0, 0, 0);
+  background:#4a7766;
   border: rgb(255, 255, 255) 0.1rem solid;
   a{
-    color: #969696 !important;
+    color: #ffffff !important;
   }
 }
 
 .btnsk-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
   a{
-    color: #969696 !important;
+    color: #ffffff !important;
   }
 }
 

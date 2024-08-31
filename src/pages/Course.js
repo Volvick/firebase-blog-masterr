@@ -25,7 +25,6 @@ const Course = () => {
 
   return (
     <div>
-
      <main>
        <section class="video_content grid">
          <div class="video_items" onClick={handleClickJava}>
@@ -36,7 +35,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" alt=""/>
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Complete JAVA Course</p>
                <span>CodeWithHarry <i class="fa fa-circle-check"></i> </span>
                <span>50.2 M views</span>
@@ -51,7 +50,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>JavaScript Full Course</p>
                <span>Shradha Khapra <i class="fa fa-circle-check"></i> </span>
                <span>4.9 M views</span>
@@ -66,7 +65,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Web Development Full Course</p>
                <span>Apna College <i class="fa fa-circle-check"></i> </span>
                <span>19.5 M views</span>
@@ -81,7 +80,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Complete CAPCUT Course</p>
                <span>Shadab Alam <i class="fa fa-circle-check"></i> </span>
                <span>170k views</span>
@@ -96,7 +95,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Complete FILM-MAKING Course</p>
                <span>X. Amru Sabiq<i class="fa fa-circle-check"></i> </span>
                <span>56.7M views</span>
@@ -111,7 +110,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" alt=""/>
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Adobe Premier Pro Course</p>
                <span>The Bhavya Shah
                <i class="fa fa-circle-check"></i> </span>
@@ -127,7 +126,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>Adobe After Effects Course</p>
                <span>The Bhavya Shah <i class="fa fa-circle-check"></i> </span>
                <span>8.7 M  views</span>
@@ -142,7 +141,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -157,7 +156,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -172,7 +171,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -187,7 +186,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" alt=""/>
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -202,7 +201,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -217,7 +216,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -232,7 +231,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -247,7 +246,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -262,7 +261,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" alt=""/>
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -277,7 +276,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -292,7 +291,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -307,7 +306,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
@@ -322,7 +321,7 @@ const Course = () => {
              <div class="img">
                <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
              </div>
-             <div class="heading">
+             <div class="headingsk">
                <p>How to make Hotel Booking Website With HTML CSS ......</p>
                <span>GorkCoder <i class="fa fa-circle-check"></i> </span>
                <span>56.7M .1 Week ago</span>
