@@ -15,7 +15,7 @@ const FeatureBlogs = ({ blogs, title }) => {
         >
           <div className="col-5 align-self-center">
             <img
-              src="https://i.pinimg.com/originals/30/6f/d0/306fd0fb64f67ff40f81d8e37f8bf674.png"
+              src="https://raw.githubusercontent.com/Volvick/image/main/user.png"
               alt={item.title}
               className="most-popular-img"
             />

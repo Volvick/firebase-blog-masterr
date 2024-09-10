@@ -99,8 +99,9 @@ const AddEditBlog = ({ user, setActive }) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleTags = (tags) => {
+  const handleTags = (e) => {
     setForm({ ...form, tags });
+    setForm({ ...form, [e.target.tags]: e.target.value });
   };
 
   const handleTrending = (e) => {
@@ -180,8 +181,9 @@ const AddEditBlog = ({ user, setActive }) => {
               <div className="col-12 py-3">
                 <ReactTagInput
                   tags={tags}
-                  placeholder="Tags"
+                  placeholder="Tags*"
                   onChange={handleTags}
+                  required
                 />
               </div>
               <div className="col-12 py-3">
