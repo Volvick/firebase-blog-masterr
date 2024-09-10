@@ -27,9 +27,12 @@ const initialState = {
 const categoryOption = [
   "Vlog Editing",
   "Documentry Editing",
-  "Reel Editing",
-  "Shorts Editing",
+  "Reel Editor",
+  "Shorts Editor",
   "Motion Graphics",
+  "Thumnail Designer",
+  "Video Editor",
+  "Programmer",
   "Others",
 ];
 
@@ -99,11 +102,9 @@ const AddEditBlog = ({ user, setActive }) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleTags = (e) => {
+  const handleTags = (tags) => {
     setForm({ ...form, tags });
-    setForm({ ...form, [e.target.tags]: e.target.value });
   };
-
   const handleTrending = (e) => {
     setForm({ ...form, trending: e.target.value });
   };

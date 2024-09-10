@@ -34,7 +34,7 @@ button a{
   text-decoration: none !important;
 }
 a {
-  color: black ;
+  color: #4a7766;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -136,14 +136,14 @@ a:hover {
   background:#4a7766;
   border: rgb(255, 255, 255) 0.1rem solid;
   a{
-    color: #ece7e2fff !important;
+    color: #ece7e2 !important;
   }
 }
 
 .btnsk-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
   a{
-    color: #ece7e2fff !important;
+    color: #ece7e2 !important;
   }
 }
 
@@ -203,7 +203,7 @@ footer p {
   .section-container {
     margin-top: 20px;
     display: block;
-    height: 40vh;
+    height: 80vh;
   }
   .arrow {
     display: none;
@@ -215,13 +215,25 @@ footer p {
   .section__pic-containersk {
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 3rem;
   }
 }
+@media screen and (max-width: 900px) {
 
+  #profilesk {
+    height: 90vh;
+    margin-bottom: -20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #profilesk {
+    height: 90vh;
+    margin-bottom: -00px;
+  }
+}
 @media screen and (max-width: 600px) {
   #profilesk {
-    height: 60vh;
+    height: 90vh;
     margin-bottom: 0;
   }
   footer nav {
@@ -258,3 +270,24 @@ footer p {
   }
 }
 
+@media screen and (max-width: 500px) {
+  #profilesk {
+    height: 80vh;
+    /* margin-bottom: -100px; */
+  }
+
+}
+@media screen and (max-width: 400px) {
+  #profilesk {
+    height: 70vh;
+    margin-bottom: -50px;
+  }
+
+}
+@media screen and (max-width: 300px) {
+  #profilesk {
+    height: 60vh;
+    margin-bottom: -00px;
+  }
+
+}
