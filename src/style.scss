@@ -11,11 +11,13 @@ body{
 	margin: 20px;
 	padding: 40px;
 	border-radius: 20px;
-	background-color:#f2fcf6;
+	background-color:#f2fcf681;
+
+	
 }
 //navbar
 .navbar-light .navbar-toggler{
-	border: none;
+	border: none !important;
 	margin-top:-1px !important;
 }
 ///recent blog
@@ -68,7 +70,10 @@ body{
 
 
 // Header
-
+.navbar{
+	// width: 90% !important;
+	// margin-left: 80px !important;
+}
 .navbar-light .navbar-nav .open>.nav-link,
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.open,
@@ -107,14 +112,14 @@ body{
 }
 .container-fluid {
 	border-radius: 40px !important;
-	background: #f2f8fc;
-	width: 90%;
+	// background: #f2f8fc;
+	// width: 90%;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border:#ece7e2  0.01rem solid !important;
-	box-shadow: 4px 4px 8px #b1b1b1;
+	// box-shadow: 4px 4px 8px #b1b1b1;
 }
 .bg-light{
 	background: none !important;
@@ -327,7 +332,9 @@ body{
 }
 
 // Detail
-
+.blog-title-box .blog-title > span{
+	border-bottom: 1px solid #f2fcf6;
+}
 .blog-title-box {
 	width: 38.2%;
 	z-index: 555;
@@ -344,7 +351,7 @@ body{
 	.overlay {
 		position: absolute;
 		top: 0;
-		height: 60%;
+		height: 100%;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -368,7 +375,7 @@ body{
 		}
 
 		h2 {
-			color: #4a7766;
+			color: #f2fcf6;
 			font-weight: 300;
 			font-size: 20px;
 
@@ -435,16 +442,6 @@ body{
 
 	}
 
-}
-@media (max-width: 440px) {
-	.overlay {
-		height: 40% !important;
-	}
-}
-@media (max-width: 307px) {
-	.overlay {
-		height: 20% !important;
-	}
 }
 
 // @media (min-width: 425px) {
