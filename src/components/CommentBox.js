@@ -12,7 +12,7 @@ const CommentBox = ({ userId, userComment, setUserComment, handleComment }) => {
             placeholder="Comment here!"
             value={userComment}
             onChange={(e) => setUserComment(e.target.value)}
-            className="form-control description"
+            className="form-control description" id="textcomment"
           />
         </div>
       </form>
