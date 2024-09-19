@@ -14,9 +14,14 @@ body {
 	margin: 20px;
 	padding: 40px;
 	border-radius: 20px;
-	background-color: #f2fcf681;
+	background-color: #f2fcf6b4;
+	border: 2px solid #fff;
 }
-
+.row .pb-4:hover{
+	scale: 1.01;
+	border: 2px solid #4a7766;
+	transition: 0.4s ease !important;
+}
 
 //comment
 #textcomment {
@@ -348,7 +353,10 @@ body {
 
 // Detail
 .blog-title-box .blog-title>span {
-	border-bottom: 1px solid #f2fcf6;
+	// border-bottom: 1px solid #f2fcf641;
+	padding: 10px;
+	border-radius: 20px;
+	background:#f2fcf641 ;
 }
 
 .blog-title-box {
@@ -394,64 +402,13 @@ body {
 			color: #f2fcf6;
 			font-weight: 300;
 			font-size: 20px;
-
-			.single & {
-				font-size: 4.5em;
-			}
-
-			/* Example of making text size responsive with em units */
-
-			body {
-				font-size: 16px;
-				/* Base font size */
-			}
-
-			/* Example of making text size responsive with media queries */
-			@media (max-width: 1200px) {
-				.single & {
-					font-size: 4em;
-					/* Relative to the base font size */
-				}
-			}
-
-			@media (max-width: 800px) {
-				.single & {
-					font-size: 3.5em;
-					/* Relative to the base font size */
-				}
-			}
-
-			@media (max-width: 500px) {
-				.single & {
-					font-size: 3em;
-					/* Relative to the base font size */
-				}
-			}
-
-
-			@media (max-width: 405px) {
-				.single & {
-					font-size: 2.4em !important;
-					/* Relative to the base font size */
-				}
-			}
-
-			@media (min-width: 405px) {
-				.single & {
-					font-size: 2.4em !important;
-					/* Relative to the base font size */
-				}
-			}
+			text-shadow: 2px 2px 8px ;
 		}
-
-
-
-
 		>span {
 			display: block;
 			color: rgba(255, 255, 255, 0.884);
 			text-transform: uppercase;
-			font-size: 15px;
+			font-size: 12px;
 			letter-spacing: .05em;
 			margin-bottom: 10px;
 		}
@@ -460,11 +417,8 @@ body {
 
 }
 
-// @media (min-width: 425px) {
-// 	.overlay {
-// 		height: 10% !important;
-// 	}
-// }
+/* Example of making text size responsive with media queries */
+
 .blog-single-content {
 	z-index: 999;
 	background: white;

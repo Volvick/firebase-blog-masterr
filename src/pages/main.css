@@ -48,7 +48,7 @@
 
 .video_items p {
   margin: 0;
-  text-shadow: 1px 1px 4px #222;
+  /* text-shadow: 1px 1px 4px #222; */
 
   background-color: #4a7766;
   color: #f2fcf6;
